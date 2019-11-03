@@ -37,5 +37,8 @@ testGuard()
 optionalInt = nil
 testGuard()
 
+optionalInt = 5
+testGuard()
+
 
 
