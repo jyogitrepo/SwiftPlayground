@@ -1,3 +1,5 @@
+// Generics
+
 struct Box<Element> where Element: Hashable {
     var element: Element
 }
@@ -21,3 +23,5 @@ struct TwoBoxes<E1, E2> {
 let value = TwoBoxes(element1: 1, element2: "One")
 value.element1
 value.element2
+
+

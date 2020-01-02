@@ -1,4 +1,4 @@
-import Foundation
+// Enum
 
 enum Direction {
     case east
@@ -17,9 +17,9 @@ enum DirectionString: String  {
 }
 
 let directionString: DirectionString = .east
-directionString.rawValue
+directionString.rawValue // RawRepresentable protocol
 
-enum DirectionInt: Int  {
+enum DirectionInt: Int {
     case east
     case west
     case north

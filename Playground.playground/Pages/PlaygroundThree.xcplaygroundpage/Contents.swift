@@ -1,4 +1,4 @@
-import Foundation
+// Guard
 
 var optionalInt: Int?
 var optionalString: String?
