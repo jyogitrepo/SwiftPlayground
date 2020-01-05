@@ -64,9 +64,9 @@ let isOneOfMyFloatNumbers = exists(item: 3.0000, inArray: myNumbersFloat)
 
 //Custom types and generics
 class Person : Equatable {
-    var name:String
-    var weight:Int
-    var sex:String
+    var name: String
+    var weight: Int
+    var sex: String
     
     init(weight:Int, name:String, sex:String) {
         self.weight = weight
