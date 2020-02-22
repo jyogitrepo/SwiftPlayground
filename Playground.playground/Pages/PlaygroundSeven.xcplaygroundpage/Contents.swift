@@ -4,7 +4,7 @@ var test = {
     print("Test")
 }
 
-test()
+print(test())
 
 var anotherTest = { (first: String, second: String) in
     print(first)
